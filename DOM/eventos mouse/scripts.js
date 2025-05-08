@@ -15,8 +15,8 @@ showButton.addEventListener("click", ()=>{
 hideButton.addEventListener("click", ()=>{
     content.classList.add("hide")
     content.classList.remove("show")
+    
 })
-
 hideShowButton.addEventListener("click", ()=>{
     content.classList.toggle("hide")
     content.classList.remove("show")
